@@ -4,6 +4,10 @@
 
 There are lots of details in here that are idiosyncratic for our experiment. Please don't hesitate to contact me if you have any questions regarding the FOUNDCOG experiment!
 
+-   We ran this on Windows with now outdated versions of Psychopy and Python. The environment we used is in environment.yaml.
+-   Because of our in-bore projection system, all stimuli are distorted so that they appear normal when in the scanner.
+-   This also means we only use a small section of the screen. The display size will very likely not apply to your system.
+
 ### launch_experiment.py acts as the main hub
 
 -   All videos and audio are pre-loaded.
