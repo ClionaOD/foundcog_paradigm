@@ -59,8 +59,8 @@ if not os.path.exists(video_folder) or len(os.listdir(video_folder)) == 0:
     raise (NotADirectoryError("Video folder not found or empty"))
 
 # set paramaters for display
-centrepos = [-85, -462]
-distort_centrepos = [-85, -462]
+centrepos = [-85, -450]
+distort_centrepos = [-85, -450]
 
 stretchy = 1 / 1.46
 fixsize = 10
@@ -147,17 +147,6 @@ wait_vids = {
     )
     for vid in wait_vids
 }
-wait_vids = {
-    vid: visual.VlcMovieStim(
-        win,
-        filename=os.path.join(wait_folder, vid),
-        pos=distort_centrepos,
-        size=[640, 360],
-        loop=True,
-    )
-    for vid in wait_vids
-}
-
 # stimuli
 all_vids = {
     vid: visual.MovieStim3(
@@ -329,6 +318,7 @@ while wait_vid.status != FINISHED:
             )
         else:
             saved_orders = pd.DataFrame(columns=["participant", "orders"])
+            saved_orders.to_csv(os.path.join(save_dir, "orders.csv"))
 
         # get least frequent
         ord_counts = check_orders(
