@@ -54,7 +54,7 @@ videos/stimuli - populate with files in [videos_stimuli]()
 
 scan_setup/attention_getters - populate with files in [attention_getters]().
 
--   Original source is:
+-   Original source: Christina Bergmann Jonathan F. Kominsky Joan Birules Michaela DeBolt Emma K. Ward available at [https://osf.io/wakqf](https://osf.io/wakqf)
 
 scan_setup/calming_vids_distorted - populate with files in [home_screen_vids]().
 
