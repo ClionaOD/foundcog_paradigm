@@ -1,8 +1,10 @@
 # foundcog_paradigm
 
-## Presentation script for the FOUNDCOG study.
+## Presentation script for the FOUNDCOG study
 
-### launch_experiment.py acts as the main hub.
+There are lots of details in here that are idiosyncratic for our experiment. Please don't hesitate to contact me if you have any questions regarding the FOUNDCOG experiment!
+
+### launch_experiment.py acts as the main hub
 
 -   All videos and audio are pre-loaded.
 -   System specific paths are set.
@@ -48,16 +50,16 @@
 
 Stimuli files are not uploaded to this repo because of the large file size. You can find them in the AWS bucket ???
 
-pictures/stimuli - populate with files in [picture_stimuli]()
+pictures/stimuli - populate with files in [picture_stimuli TODO]()
 
-videos/stimuli - populate with files in [videos_stimuli]()
+videos/stimuli - populate with files in [videos_stimuli TODO]()
 
-scan_setup/attention_getters - populate with files in [attention_getters]().
+scan_setup/attention_getters - populate with files in [attention_getters TODO]()
 
--   Original source: Christina Bergmann Jonathan F. Kominsky Joan Birules Michaela DeBolt Emma K. Ward available at [https://osf.io/wakqf](https://osf.io/wakqf)
+-   Original source: Christina Bergmann Jonathan F. Kominsky Joan Birules Michaela DeBolt Emma K. Ward available at [https://osf.io/wakqf](https://osf.io/wakqf).
 
-scan_setup/calming_vids_distorted - populate with files in [home_screen_vids]().
+scan_setup/calming_vids_distorted - populate with files in [home_screen_vids TODO]()
 
--   Inscapes video from [Vanderwal, Tamara, et al. "Inscapes: A movie paradigm to improve compliance in functional magnetic resonance imaging." Neuroimage 122 (2015): 222-232.](https://www.sciencedirect.com/science/article/pii/S1053811915006898)
+-   Inscapes video from [Vanderwal, Tamara, et al. "Inscapes: A movie paradigm to improve compliance in functional magnetic resonance imaging." Neuroimage 122 (2015): 222-232.](https://www.sciencedirect.com/science/article/pii/S1053811915006898).
 
-scan_setup/misc - populate with files in [misc_media]().
+scan_setup/misc - populate with files in [misc_media TODO]()
