@@ -36,7 +36,13 @@
 
 -   All the same protocols for the videos task, but with the pictures experiment.
 
-### Visualisation of the paradigm for ease of use.
+### Visualisation of the paradigm for ease of use
+
+![alt text](https://github.com/ClionaOD/foundcog_paradigm/blob/main/scan_setup/misc/paradigm_viz.jpg?raw=true)
+
+### Visualisation of our protocol and priorities
+
+![alt text](https://github.com/ClionaOD/foundcog_paradigm/blob/main/scan_setup/misc/protocol.jpg?raw=true)
 
 ## To download stimuli
 
